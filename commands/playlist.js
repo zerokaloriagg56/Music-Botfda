@@ -151,7 +151,7 @@ module.exports = {
         }, { upsert: true }).catch(e => { })
 
         const albumCreatedEmbed = new EmbedBuilder()
-  .setColor('#00ff00')
+  .setColor('#000000')
           .setAuthor({
             name: 'Album Created Sucessfully',
             iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
