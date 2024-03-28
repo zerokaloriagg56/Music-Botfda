@@ -21,10 +21,10 @@ console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commands Distracted!');
 
 console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
 
-    client.user.setActivity("FurYxMusic.gg", {
-      name: 'FurYxMusic.gg',
-      type: discord.ActivityType.Streaming,
-      url: 'https://www.youtube.com/watch?v=K75KmobaNbQ'
+setInterval(() => client.user.setActivity({ 
+  name: `FurYxMusic.gg`, 
+  type: ActivityType.STREAMING }), 10000);
+    
 client.errorLog = config.errorLog
 } else {
 console.log('\x1b[36m%s\x1b[0m', `|    🍔 Error MongoDB!`)
