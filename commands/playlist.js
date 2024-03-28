@@ -124,7 +124,7 @@ module.exports = {
         if (userplaylist?.playlist?.length >= client.config.playlistSettings.maxPlaylist) return interaction.reply({ content: '🚫 Exceeded Album limit', ephemeral: true }).catch(e => { })
 
         const creatingAlbumEmbed = new EmbedBuilder()
-          .setColor('#0099ff')
+          .setColor('#000000')
           .setTitle('Creating Album')
           .setDescription(`Hey <@${interaction.member.id}>, your album is being created. Rock on! 🎸`)
           .setTimestamp();
