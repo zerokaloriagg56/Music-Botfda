@@ -146,7 +146,7 @@ module.exports = {
 
           const embed = new EmbedBuilder()
             .setTitle('Command Timeout')
-            .setColor(`#ecfc03`)
+            .setColor(`#000000`)
             .setDescription('▶️ Execute the Queue command again!!')
           return interaction?.editReply({ embeds: [embed], components: [button] }).catch(e => { })
 
