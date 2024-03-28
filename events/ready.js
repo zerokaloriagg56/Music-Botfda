@@ -23,7 +23,8 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 setInterval(() => client.user.setActivity({ 
   name: `FurYxMusic.gg`, 
-  type: ActivityType.STREAMING }), 10000);
+  type: ActivityType.STREAMING }), 10000),
+  url: 'https://www.youtube.com/watch?v=K75KmobaNbQ';
     
 client.errorLog = config.errorLog
 } else {
