@@ -33,7 +33,7 @@ module.exports = {
       const success = queue.pause();
 
       const embed = new EmbedBuilder()
-        .setColor('#7645fe') 
+        .setColor('#000000') 
         .setAuthor({
           name: 'Song Paused',
           iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157296313013117049/8061-purple-pause-icon.png?ex=651817ae&is=6516c62e&hm=4596c9fab9d8b66de8b5215b2750572ced352eed67440a1134550b846b5693b9&',
