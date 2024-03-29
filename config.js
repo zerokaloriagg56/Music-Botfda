@@ -40,7 +40,7 @@ module.exports = {
     voiceConfig: {
       leaveOnFinish: false,
       leaveOnStop: false,
-      leaveOnEmpty: {
+      leaveOnEmpty: false,
         status: true,
         cooldown: 10000000,
       },
