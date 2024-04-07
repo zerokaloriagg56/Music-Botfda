@@ -26,7 +26,7 @@ client.user.setPresence({
         name: 'FurYxHosted.gg', 
         type: ActivityType.Listening,
     }], 
-    status: 'online' 
+    status: 'idle' 
 });
 
 client.errorLog = config.errorLog
