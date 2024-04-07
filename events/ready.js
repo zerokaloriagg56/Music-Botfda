@@ -24,9 +24,10 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 client.user.setPresence({ 
     activities: [{ 
         name: 'FurYxHosted.gg', 
-        type: ActivityType.Listening,
+        type: ActivityType.Streaming, 
+        url: 'https://www.youtube.com/watch?v=K75KmobaNbQ' 
     }], 
-    status: 'idle' 
+    status: 'online' 
 });
 
 client.errorLog = config.errorLog
