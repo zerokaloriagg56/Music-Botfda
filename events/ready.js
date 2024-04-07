@@ -23,7 +23,7 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 setInterval(() => client.user.setActivity({ 
   name: `FurYxHosted.gg`,
-  status: 'idle',
+  status: "idle" ,
   type: ActivityType.Listening }), 10000,
     
 client.errorLog = config.errorLog
