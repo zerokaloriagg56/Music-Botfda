@@ -21,10 +21,9 @@ console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commands Distracted!');
 
 console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
 
-setInterval(() => client.user.setActivity({ 
-  status: 'idle' ,
-  name: 'FurYxHosted.gg' ,
-  type: ActivityType.Listening }),
+      client.user.setActivity: [{ name: `FurYxMusic.gg`, type: ActivityType.Listening }],
+      status: 'idle',
+    });
     
 client.errorLog = config.errorLog
 } else {
